@@ -1,0 +1,151 @@
+@import "./styles/variables.scss";
+
+h1 {
+  margin: 0;
+}
+
+body {
+  background: #212c42;
+}
+
+.App {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.form {
+  border-radius: 20px;
+  background: #1d273a;
+  width: 340px;
+  height: 336px;
+}
+
+.register__title {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 27px;
+}
+
+input {
+  outline: none;
+  margin-top: 20px;
+  background-color: #192f3d;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  width: 280px;
+  height: 46px;
+  color: #fff;
+}
+
+input::-webkit-input-placeholder {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+::-moz-placeholder {
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+input::-moz-placeholder {
+  color: $grey;
+}
+
+input:focus {
+  border: 1px solid #fff;
+}
+
+.second_input::-webkit-input-placeholder {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 14px;
+  color: $grey;
+}
+
+button {
+  background-color: #d752aa;
+  color: #fff;
+  border: none;
+  width: 286px;
+  height: 46px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.forgot {
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #6781f7;
+  font-size: 14px;
+}
+
+.register a {
+  margin-top: 14px;
+  margin-left: 15px;
+}
+
+svg {
+  margin-left: 4px;
+}
+
+.invite svg {
+  margin-left: 34px;
+}
+
+.invite__content {
+  margin-top: 65px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-around;
+  width: 242px;
+
+  & h3 {
+    margin: 0;
+    max-width: 109px;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  & p {
+    margin: 0;
+    font-size: 10px;
+  }
+}
+
+.invite__nicknames {
+  margin-top: 8px;
+}
