@@ -1,0 +1,326 @@
+@import "../../styles/variables.scss";
+
+body {
+    background: #192233;
+}
+
+.smt {
+    display: flex;
+}
+
+.my_structure {
+    margin-top: 40px;
+    width: 1150px;
+    height: 1200px;
+    background: #212C42;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    padding-left: 71px;
+
+    & h1 {
+        margin-bottom: 0;
+        color: #fff;
+        margin-top: 30px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+.shared {
+    padding-top: 10px;
+    display: flex;
+
+    & h3 {
+        margin: 0;
+        margin-top: 7px;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+.select {
+    margin-left: 720px;
+    display: flex;
+    justify-content: space-around;
+    width: 284px;
+    align-items: center;
+    & p {
+        margin: 0;
+        margin-right: 20px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    & select {
+        padding-left: 10px;
+        margin: 0;
+        width: 70px;
+        height: 40px;
+        appearance: none;
+        background: #fff;
+        border: none;
+        background: url("../../img/Down.svg") no-repeat right;
+    }
+
+    & input {
+        border: none;
+        margin: 0;
+        width: 24px;
+    }
+}
+
+.tarifs {
+    display: flex;
+    border-radius: 16px;
+    margin-top: 16px;
+    width: 1070px;
+    height: 1000px;
+    background: #192233;
+}
+
+.tarif {
+    width: 257px;
+    border-right: 1px solid #8B97AE;
+    padding-top: 10px;
+    & h4 {
+        margin-bottom: 120px;
+        margin-left: 30px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    & div {
+        border-top: 1px solid #8B97AE;
+
+        & p {
+            color: #fff;
+            font-size: 12px;
+            margin-left: 30px;
+        }
+    }
+}
+
+.new {
+    color: #fff;
+    text-align: center;
+    width: 257px;
+    border-right: 1px solid #8B97AE;
+    padding-top: 10px;
+
+    & div {
+        border-top: 1px solid #8B97AE;
+
+        & p {
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+
+    .beginner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 126px;
+        border-top: none;
+        border-bottom: none;
+        border-bottom: none;
+        border-right: 1px solid #8B97AE;
+
+        & h4 {
+            margin-top: 7px;
+            margin-bottom: 4px;
+        }
+
+        & div {
+            width: 126px;
+            border-right: 1px solid #8B97AE;
+        }
+    }
+
+    .start {
+        width: 128px;
+        border-top: none;
+        border-bottom: none;
+
+        & h4 {
+            margin-bottom: 19px;
+        }
+    }
+}
+
+.classes {
+    height: 58px;
+    display: flex;
+    border-top: none;
+    border-bottom: none;
+}
+
+.your_tarif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8B97AE;
+    border-radius: 12px;
+    width: 92px !important;
+    height: 22px !important;
+    margin-bottom: 6px;
+}
+
+.no {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.yes {
+    height: 54px;
+}
+
+.yesPR {
+    padding-top: 8px !important;
+    padding-bottom: 7px !important;
+}
+
+.noClub {
+    padding-top: 4px !important;
+    padding-bottom: 5px !important;
+}
+
+.noPR {
+    padding-top: 4px !important;
+    padding-bottom: 5px !important;
+}
+
+.noHype {
+    padding-top: 4px !important;
+    padding-bottom: 5px !important;
+}
+
+.cost {
+    border-bottom: 1px solid #8B97AE;
+}
+
+.free {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #8B97AE;
+}
+
+.standart {
+        background: #212c42;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 126px;
+        border-top: none !important;
+        border-bottom: none;
+        border-right: 1px solid #8B97AE;
+
+        & h4 {
+            margin-top: 20px;
+            margin-bottom: 21px;
+        }
+
+        & div {
+            width: 126px;
+            border-right: 1px solid #8B97AE;
+            background: #212c42;
+        }
+}
+
+.gold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 126px;
+    border-top: none !important;
+    border-bottom: none;
+    border-right: 1px solid #8B97AE;
+
+    & h4 {
+        margin-top: 20px;
+        margin-bottom: 21px;
+    }
+
+    & div {
+        width: 126px;
+        border-right: 1px solid #8B97AE;
+    }
+}
+
+.your_tarif_button {
+    border-top: none !important;
+    display: flex;
+    justify-content: center;
+    width: 125px !important;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    height: 70px !important;
+}
+
+.your_tarif_button__button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #d752aa !important;
+    border-top: none !important;
+    border-right: none !important;
+    margin-top: 2px;
+    width: 100px !important;
+    height: 46px !important;
+    border-radius: 8px;
+}
+
+.your_tarif_button__button__grey {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #8B97AE !important;
+    border-top: none !important;
+    border-right: none !important;
+    margin-top: 2px;
+    width: 100px !important;
+    height: 46px !important;
+    border-radius: 8px;
+}
+
+.ps {
+    color: #fff !important;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.dif {
+    background: #212C42;
+    height: 39px;
+}
+
+.profi {
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6781f7;
+    height: 62px;
+}
+
+.prof {
+    padding-top: 0;
+}
+
+.popular {
+    width: 84px;
+    background: #d752aa !important;
+    margin-left: 5px;
+    border: none !important;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+
+    p {
+        font-size: 12px !important;
+    }
+}
